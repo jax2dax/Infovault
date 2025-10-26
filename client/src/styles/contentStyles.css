@@ -1,0 +1,30 @@
+
+*{
+    margin:8px;
+    
+    font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.context-container{
+    display: flex;
+    flex-direction: row;
+}
+.context-container .sidecontext{
+    flex: 2;
+    flex-direction: column;
+}
+.context h2{
+    flex: 5;
+    background-color: #ae5b5b;
+    color:rgb(50, 11, 11);
+
+}
+@media (max-width: 480px) {
+  
+    *{  margin: 5px;
+        font-family: "Titillium Web", sans-serif;
+    font-size: 200;
+}
+  
+} 
