@@ -27,9 +27,9 @@ useEffect(() => {
   if (sessionStorage.getItem("NewsAPIWasCalled") === "YES") {
     console.log("news-api-not-fetched, already called");
     const stored = sessionStorage.getItem("newsJsonData");
-    if (stored) setAirData(JSON.parse(stored)); // ✅ parse before setting
+    if (stored) setAirData(JSON.parse(stored)); // parse before setting
   } else {
-    fetchNews(); // ✅ only call after defining
+    fetchNews(); // only call after defining
   }
 }, []);
       

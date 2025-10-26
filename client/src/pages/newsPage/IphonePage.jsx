@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function IphonePage() {
  
     
+    
   // Simulated news API response (shortened)
   const articles = [
     {
