@@ -1,0 +1,14 @@
+.display{
+    background: linear-gradient(90deg, rgb(142, 244, 9), rgb(255, 166, 0));
+    border-radius: 4px;
+    animation: hueRotate 15s ease-in-out infinite;
+}
+
+@keyframes hueRotate {
+    0%, 100% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+    }
+}

@@ -8,12 +8,14 @@ import  News  from "./pages/newsPage/MainNewsPg.jsx"
 import IphonePage from "./pages/newsPage/IphonePage.jsx";
 import DocEvaluate from "./pages/docEvaluatePage/MainDocevPg.jsx";
 import DocEvBasicsPage from "./pages/docEvaluatePage/DocEvBasicsPage.jsx";
+import Home from "./pages/Home.jsx"
 function App() {
   return (
     <Suspense fallback={<p>Loading...</p>}>
       
         <Routes>
           <Route path="/"  element={<Layout />} >
+            <Route path="/" element={<Home />}/>
               <Route path="mainlist"  element={<Products />} />
                 <Route path="mainlist/getInfo" element={<GeneralInfos />} />
                 <Route path="mainlist/getInfo/timezone-am-pm" element={<TimezonePage />} /> 
@@ -21,6 +23,7 @@ function App() {
                    <Route path="mainlist/news/iphone-news" element={<IphonePage />} />
                     <Route path="mainlist/DocEvPage" element={<DocEvaluate />} /> 
                     <Route path="mainlist/DocEvPage/Evaluation-basics" element={<DocEvBasicsPage />} /> 
+                    
     
           </Route>
         </Routes>
