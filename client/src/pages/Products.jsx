@@ -2,10 +2,10 @@ import "../styles/Products.css"
 import { useNavigate } from "react-router-dom";
 export default function Products() {
   const products = [
-    { id: 1, name: 'Information', category: 'Education, learn and ask', price: '$299', stock: 45 ,link:gotoInfo},
-    { id: 2, name: 'News', category: 'Accessories', price: '$149', stock: 23 ,link:getSport},
-    { id: 3, name: 'Sport', category: 'Tools', price: '$499', stock: 12 },
-    { id: 4, name: 'Document Evaluation', category: 'Apostille, Educational documents Evaluation', price: '$79', stock: 67 ,link:gotoDocEvaluation},
+    { id: 1, name: 'Information', category: 'Education, learn and ask', price: '~299', stock: 45 ,link:gotoInfo},
+    { id: 2, name: 'News', category: 'Accessories', price: '~149', stock: 23 ,link:getSport},
+    { id: 3, name: 'Sport', category: 'Tools', price: '~499', stock: 12 },
+    { id: 4, name: 'Document Evaluation', category: 'Apostille, Educational documents Evaluation', price: '~79', stock: 67 ,link:gotoDocEvaluation},
   ];
 
   /* ONCLICKS */
@@ -19,9 +19,9 @@ export default function Products() {
 
   return (
     <div className="products-container">
-      <h1 className="products-title">Products</h1>
+      <h1 className="products-title">Main List</h1>
       <p className="products-subtitle">
-        Browse and manage your product inventory.
+        Browse, explore pages.
       </p>
       
       <div className="products-grid">

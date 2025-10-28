@@ -1,0 +1,146 @@
+/* --- BASE NAVBAR --- */
+*{
+    margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: #fff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+ /* allow wrapping on smaller screens */
+}
+
+.navbar-logo a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  white-space: nowrap;
+  border: 3px solid red;;
+}
+
+/* --- LINKS LIST --- */
+.navbar-links {
+  list-style: none;
+  display: flex;
+   /* allow links to wrap on small screens */
+  
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  border: 2px solid black
+  
+}
+
+.navbar-links li {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+/* --- NAVLINKS --- */
+.navbar-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 5px 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #0077ff;
+  background: rgba(0,119,255,0.08);
+}
+
+/* --- ICON STYLE --- */
+.icon-container {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.icon {
+  width: 100%;
+  height: auto;
+}
+
+.non-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* --- RESPONSIVE BEHAVIOR --- */
+@media (max-width: 850px) {
+  /* .navbar { */
+    /* flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .navbar-links {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .navbar-links a {
+    font-size: 0.95rem;
+  }
+}*/
+}
+@media (max-width: 600px) {
+  .navbar-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  } 
+  .navbar-links .non-icon{
+        display: none;
+        gap: 0;
+        
+    }
+
+  .navbar-links a {
+   
+  }
+
+  .navbar-links li {
+  
+  }
+
+  .navbar-logo {
+    
+  }
+}
+
+@media (max-width: 830px) {
+    
+    .navbar{
+        padding: 3px 1px;
+    }
+    .navbar-links{
+        display: none;
+        width: clamp(260px,240px,100vw);
+    }
+    .hamburger{
+        display: block;
+    }
+}
+.nav-name{
+
+}

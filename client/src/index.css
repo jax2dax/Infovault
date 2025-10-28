@@ -12,3 +12,22 @@
         filter: hue-rotate(180deg);
     }
 }
+/*********ICONS**GLOBAL**********/
+.icon-container{
+    
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.non-icon{
+    
+    
+    
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    border: 3px green;
+}
+

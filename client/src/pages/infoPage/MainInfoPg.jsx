@@ -1,6 +1,7 @@
 
-import "../../styles/Products.css"
+import "../../styles/getinfostyles/info.css"
 import { useNavigate } from "react-router-dom";
+import demoimg from "../../assets/demoimg.webp"
 
 
 export default function GeneralInfos() {
@@ -24,6 +25,7 @@ export default function GeneralInfos() {
       <div className="info-grid">
         {infos.map((info) => (
           <div key={info.id} className="info-card" onClick={info.link}>
+            <div className="info-image-container"><img alt="info"className="info-img" src={demoimg}/></div>
             <h3 className="info-news-title">{info.title}</h3>
             <p className="info-category">Category: {info.category}</p>
             <p className="info-date">Date: {info.date}</p>
