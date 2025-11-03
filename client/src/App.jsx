@@ -5,10 +5,13 @@ import Products from "./pages/Products.jsx";
 import GeneralInfos from "./pages/infoPage/MainInfoPg.jsx";
 import TimezonePage from "./pages/infoPage/TimezonePage.jsx";
 import  News  from "./pages/newsPage/MainNewsPg.jsx"
-import IphonePage from "./pages/newsPage/IphonePage.jsx";
+import TrendingNews from "./pages/newsPage/TrendingNewsPg.jsx";
 import DocEvaluate from "./pages/docEvaluatePage/MainDocevPg.jsx";
 import DocEvBasicsPage from "./pages/docEvaluatePage/DocEvBasicsPage.jsx";
 import Home from "./pages/Home.jsx"
+import Fitnesspage from "./pages/fitnessPage/MainFitnessPg.jsx";
+import DocEvAgent from "./pages/agentsPage/DocEvAgent.jsx"
+import About from "./components/About.jsx";
 function App() {
   return (
     <Suspense fallback={<p>Loading...</p>}>
@@ -20,10 +23,12 @@ function App() {
                 <Route path="mainlist/getInfo" element={<GeneralInfos />} />
                 <Route path="mainlist/getInfo/timezone-am-pm" element={<TimezonePage />} /> 
                 <Route path="mainlist/news" element={<News />} /> 
-                   <Route path="mainlist/news/iphone-news" element={<IphonePage />} />
+                   <Route path="mainlist/news/trending-news" element={<TrendingNews />} />
                     <Route path="mainlist/DocEvPage" element={<DocEvaluate />} /> 
                     <Route path="mainlist/DocEvPage/Evaluation-basics" element={<DocEvBasicsPage />} /> 
-                    
+                    <Route path="mainlist/fitnessPage" element={<Fitnesspage />} />
+                <Route path="/mainlist/Agents/Doc-Evaluation" element={< DocEvAgent/>} />
+                  <Route path="/about" element={<About />} />
     
           </Route>
         </Routes>

@@ -4,28 +4,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://yourdomain.com/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://infovault-five.vercel.app/</loc>
+    <lastmod>2025-11-1</lastmod>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/mainlist</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://infovault-five.vercel.app/mainlist</loc>
+    <lastmod>2025-11-1</lastmod>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/mainlist/getInfo</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://infovault-five.vercel.app/mainlist/getInfo</loc>
+    <lastmod>2025-11-1</lastmod>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/mainlist/getInfo/timezone-am-pm</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://infovault-five.vercel.app/mainlist/getInfo/timezone-am-pm</loc>
+    <lastmod>2025-11-1</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://infovault-five.vercel.app/mainlist/news</loc>
+    <lastmod>2025-11-1</lastmod>
   </url>
 
   <url>
-    <loc>https://yourdomain.com/contact</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://infovault-five.vercel.app/mainlist/DocEvPage/Evaluation-basics</loc>
+    <lastmod>2025-11-1</lastmod>
+  </url>  
+
+  <url>
+    <loc>https://infovault-five.vercel.app/mainlist/trending-news</loc>
+    <lastmod>2025-11-1</lastmod>
   </url>
+
+  <url>
+    <loc>https://infovault-five.vercel.app/about</loc>
+    <lastmod>2025-11-1</lastmod>
+  </url>
+  <url>
+    <loc>https://infovault-five.vercel.app/mainlist/Agents/Doc-Evaluation</loc>
+    <lastmod>2025-11-1</lastmod>
+  </url>
+  <url>
+    <loc>https://infovault-five.vercel.app/mainlist/fitnessPage</loc>
+    <lastmod>2025-11-1</lastmod>
+  </url>
+
 
 </urlset>

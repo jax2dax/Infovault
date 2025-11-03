@@ -7,7 +7,8 @@ export default function     DocEvBasicsPage() {
             
     return(
         <div>
-            <meta name="description" content="How can I do document evaluation, Is it a must to do document evaluation, What are steps in comlpeting the document evaluation." />
+            <title>Document Evaluation Explained: Meaning, Purpose, and Benefits | InfoVault</title>
+            <meta name="description" content="Understand the meaning of document evaluation, its cross-country benefits, and the purpose of verifying academic and professional credentials."></meta>
         
             <title>Document evaluation in different countries</title>
             <div className="headings">

@@ -19,8 +19,10 @@ export default function GeneralInfos() {
 
   return (
     <div className="info-container">
-      <h1 className="info-title">General Football Information</h1>
-      <p className="info-subtitle">Latest updates and insights from the football world</p>
+      <title>Expand Your General Knowledge | Trending Topics and Global Updates</title>
+      <meta name="description" content="Get the latest updates and general knowledge on the world's most relevant topics. Discover insights across technology, environment, sports (VAR), and science."></meta>
+      <h1 className="info-title">Stay informed and expand your understanding of Technology, Sustainability and Current affairs. </h1>
+      <p className="info-subtitle">Expertly Vetted Content: Discover in-depth articles and authoritative insights guaranteed to be current and factually precise.</p>
 
       <div className="info-grid">
         {infos.map((info) => (

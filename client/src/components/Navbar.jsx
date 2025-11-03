@@ -1,6 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
 import homeblack from "../assets/icons/homeblackicon.png";
+import listblack from "../assets/icons/listblackimg.png"
+import compass from "../assets/icons/compassimg.png"
+import compassgif from "../assets/icons/compassgif.gif"
+import newsblack from "../assets/icons/newsblackimg.png"
+import newswhite from "../assets/icons/newswhiteimg.png"
+
 
 export default function Navbar() {
   return (
@@ -17,23 +23,23 @@ export default function Navbar() {
           <div className="non-icon">Home</div>
         </NavLink>
 
-        <NavLink to="/mainlist">
-          <div className="icon-container"><img className="icon" src={homeblack} /></div>
+        <NavLink to="/mainlist" end>
+          <div className="icon-container"><img className="icon" src={listblack} /></div>
           <div className="non-icon">Main-List</div>
         </NavLink>
 
         <NavLink to="/mainlist/getInfo">
-          <div className="icon-container"><img className="icon" src={homeblack} /></div>
+          <div className="icon-container"><img className="icon" src={compass} /></div>
           <div className="non-icon">Info</div>
         </NavLink>
 
         <NavLink to="/mainlist/news">
-          <div className="icon-container"><img className="icon" src={homeblack} /></div>
+          <div className="icon-container"><img className="icon" src={newsblack} /></div>
           <div className="non-icon">News</div>
         </NavLink>
 
         <NavLink to="/mainlist/DocEvPage">
-          <div className="icon-container"><img className="icon" src={homeblack} /></div>
+          <div className="icon-container"><img className="icon" src={newswhite} /></div>
           <div className="non-icon">Doc Evaluate</div>
         </NavLink>
 

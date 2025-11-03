@@ -1,7 +1,7 @@
 
 import "../../styles/Products.css"
 import { useNavigate } from "react-router-dom";
-import  IphonePage   from "./IphonePage.jsx";
+import  IphonePage   from "./TrendingNewsPg.jsx";
 import { useState } from "react"
 import { useEffect } from "react";
 
@@ -35,19 +35,24 @@ useEffect(() => {
       
 
   const NewsList = [
-    { id: 1, title: "Timezone", category: "Timezone confusion problems?", date: "2025-11-04", link:gotoIphonepage },
-    { id: 2, title: "VAR system updated for fairer play", category: "Technology", date: "2025-11-04" },
-    { id: 3, title: "New environmental rules for stadiums", category: "Sustainability", date: "2025-11-06" },
+    { id: 1, title: "Trending and Hot", category: "Trending", date: "2025-11-04", link:gotoIphonepage },
+    { id: 2, title: "Celebrity Updates", category: "Entertainment", date: "2025-11-04", link:redirect2 },
+    { id: 3, title: "Political Crisis", category: "Politics", date: "2025-11-03",link:redirect3 },
   ];
 
   const navigate = useNavigate();
  function gotoIphonepage(){
-    navigate("/mainlist/news/iphone-news");
+    navigate("/mainlist/news/trending-news");
      console.log("navigated to iphone-page")
  }
+ /*** */
+ function redirect2(){()=>{window.open()}}
+ function redirect3(){()=>{window.open()}}
 
   return (
     <div className="news-container">
+      <title>Breaking News & Trending Stories Today | Entertainment, Tech, & Global Updates</title>
+      <meta name="description" content="Get the latest breaking news and today's top trending stories in one place. Your source for current affairs, entertainment, technology, and global updates."></meta>
       <h1 className="news-title">News Latest</h1>
       <p className="news-subtitle">See the most Recent published Aticles</p>
 
